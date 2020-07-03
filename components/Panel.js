@@ -214,7 +214,7 @@ class SwipeablePanel extends Component {
             width: deviceWidth,
           },
           {
-            height: allowTouchOutside ? "auto" : FULL_HEIGHT,
+            height: allowTouchOutside ? "auto" : FULL_HEIGHT + 50,
           },
         ]}
       >
